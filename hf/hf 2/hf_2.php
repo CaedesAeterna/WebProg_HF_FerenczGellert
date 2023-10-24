@@ -1,7 +1,8 @@
 <?php
 
 
-//first//$color = 'yellowgreen';
+//first
+//$color = 'yellowgreen';
 //
 //$tableCreate = function ($number) use ($color) {
 //    echo "<table style='text-align: center;border: 1px solid'>";
