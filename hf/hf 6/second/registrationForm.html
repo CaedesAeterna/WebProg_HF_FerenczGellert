@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post" action="process.php" style="max-width: 800px; margin: 0 auto;">
+    <p>Name: <label>
+        <input type="text" name="name" required>
+    </label></p>
+    <p>Email: <label>
+        <input type="email" name="email" required>
+    </label></p>
+    <p>Password: <label>
+        <input type="text" name="password" required>
+    </label></p>
+    <p>Password again: <label>
+        <input type="text" name="password2" required>
+    </label></p>
+    <p> Birthdate: <label>
+        <input type="date" name="birthdate" required>
+    </label></p>
+
+    <p>
+        Gender:
+
+        <input type="radio" name="gender" value="male" required>
+        male
+
+        <input type="radio" name="gender" value="female" required>
+        female
+
+        <input type="radio" name="gender" value="other" required>
+        other
+    </p>
+    <p>
+        Interests: <br>
+
+        <input type="checkbox" name="interests[]" value="sports">
+        Sports <br>
+
+        <input type="checkbox" name="interests[]" value="art">
+        Art <br>
+
+        <input type="checkbox" name="interests[]" value="music">
+        Music <br>
+    </p>
+
+    <p>
+        Country:
+        <label>
+            <select name="countries">
+
+                <option value="Germany">Germany</option>
+                <option value="USA">USA</option>
+                <option value="Canada">Canada</option>
+                <option value="Mexico">Mexico</option>
+
+
+            </select>
+        </label>
+
+
+    </p>
+
+
+    <p><input type="submit" value="Submit"></p>
+
+</form>
+
+
+</body>
+</html>
