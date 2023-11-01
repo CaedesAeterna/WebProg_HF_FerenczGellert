@@ -4,6 +4,8 @@ session_start();
 
 if (isset($_SESSION['num'])) {
 
+
+
     if (isset($_POST['talalgatas'])) {
         $talalgatas = htmlspecialchars($_POST['talalgatas']);
 
@@ -23,6 +25,9 @@ if (isset($_SESSION['num'])) {
 
 
     }
+
+
+    echo '<a href="form.html"> Ujra </a>';
 
 } else {
 
